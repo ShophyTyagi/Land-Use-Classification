@@ -6,7 +6,7 @@ This helps a variety of stakeholders, including conservationists, urban planners
 In addition to sorting imagery, land use classification is important for identifying the parts of an image to which certain analyses are applied. For example, if the company has different crop stress algorithms for fields that are next to urban areas versus fields that are next to rivers, this project would help them to automate the process of applying these specialized algorithms and more effectively solve environmental problems.
 
 ### Dataset Description:
-For this project the dataset can be downloaded locally [link](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
+For this project the dataset can be downloaded locally [here](http://madm.dfki.de/downloads). The dataset consists of 27,000 labeled images of 10 different land use classes:
 - Annual Crop
 - Forest
 - Herbaceous Vegetation
@@ -23,8 +23,7 @@ Each multispectral image consists of 13 different color bands that represent dif
 ### Project Plan
 This project includes notebooks for all stages in the process: 
 1. [Data preparation](https://github.com/sophy26/land-use-classification/0_build_rgb_dataset.ipynb)
-1. [Exploratory data analysis](https://github.com/sophy26/land-use-classification/1_exploratory_data_analysis.ipynb)
-1. [Convolutional neural network model](https://sophy26/land-use-classification/2_cnn_model.ipynb)
-1. [CNN with model tuning](https://github.com/sophy26/land-use-classification/3_cnn_tuned.ipynb)
+2. [Exploratory data analysis](https://github.com/sophy26/land-use-classification/1_exploratory_data_analysis.ipynb)
+3. [CNN with model tuning](https://github.com/sophy26/land-use-classification/3_cnn_tuned.ipynb)
 
 Using keras as the main machine learning library for this project, I crafted a RGB jpeg dataset from thousands of thirteen-band tif files, and used transfer learning, data augmentation, and regularization to build three different models with increasing performance.
